@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+
+@import url('components/avatar.css');
+@import url('components/banner.css');
+@import url('components/button.css');
+
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #C8D4CF;
+    color: black;
+    margin: 0;
+    padding: 20px;
+}
+
+h1{
+    font-family: copperplate;
+}
+
+p {
+    color: darkbrown;
+}
+
+h4 {
+    font-size: 15px;
+    color: darkred;
+    font-family: times;
+}
+
+a {
+    color: #297253;
+    font-family: cursive;
+}
+
+
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: transparent;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+
+
+.upper-sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; 
+}
+
+.upper-sidebar nav ul li {
+    display: inline;
+    margin: 0 10px; /* Reduced space between nav items for a cleaner look */
+}
+
+.upper-sidebar nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: darkred;
+    font-family: copperplate;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.upper-sidebar nav ul li a:hover {
+    background-color: #E41A18;
+}
+
+.content section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #8EBBAF;
+    border-radius: 8px;
+}
+
+.movie {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 20px;
+}
+
+.movie img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.movie .description {
+    flex: 1;
+}
+
+.center-image {
+    text-align: center;
+    height: auto;
+}
+
+#list {
+    width: 500px;
+}
+
+.btn-blue {
+    background-color: #31A485; 
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-blue:hover {
+    background-color: #E41A18;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+#profile {
+    box-shadow: 2px 2px 10px darkred;
+}
+
+#propic {
+   box-shadow: 2px 2px 10px darkred;
+}
+
+.fab {
+    font-size: 24px;
+    color: darkred;
+    transition: color 0.3s;
+}
+
+.fab:hover {
+    color: orange; 
+}
+
+form input[type=email], form input[type=submit] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+form input[type=submit] {
+    background-color: darkred; 
+    color: white;
+    cursor: pointer;
+}
+
+form input[type=submit]:hover {
+    background-color: #E41A18;
+}
+
+
+
+section img {
+    width: 200px;
+}
+
+section {
+    display: none;
+    padding: 20px;
+    background: #DDFFF1;
+    border-radius: 20px;
+    border-color: #E41A18;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+section:target {
+    display: block;
+}
+
+.question a, #start a {
+    display: inline-block;
+    text-decoration: none;
+    background: darkred;
+    color: whitesmoke;
+    font-family: copperplate;
+    padding: 10px 15px;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.question a:hover, #start a:hover {
+    background: #E41A18;
+}
+
+/* Additional styling for better layout */
+.container {
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Styling for the navigation/instruction text */
+.nav-text {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.nav-text a {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Enhance visual separation between sections */
+section + section {
+    margin-top: 40px;
+}
+

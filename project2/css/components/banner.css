@@ -1,0 +1,29 @@
+.banner {
+    color: whitesmoke;
+    text-align: center;
+    padding: 60px 20px; /* Reduced top and bottom padding */
+    border-radius: 8px;
+    margin-bottom: 20px; /* Added space below the banner */
+}
+
+.banner {
+    background-image: url('/Users/louanneantier/Desktop/Second project/images/cine.jpeg'); /* Replace 'your-image.jpg' with your actual image filename */
+    background-size: cover; 
+    background-position: center; 
+    height: 300px; 
+    color: whitesmoke; 
+    font-family: copperplate;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+}
+
+
+.banner h1 {
+    margin-bottom: 15px; 
+}
+
+.banner h2 {
+    margin-bottom: 30px; 
+}
